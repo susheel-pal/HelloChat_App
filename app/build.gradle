@@ -37,7 +37,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     //for displaying images
-    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    //implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     // Import the Firebase BoM
     implementation platform('com.google.firebase:firebase-bom:29.1.0')
     // Add the dependency for the Firebase SDK for Google Analytics
@@ -46,8 +48,10 @@ dependencies {
     // Add the dependencies for any other desired Firebase products
     // https://firebase.google.com/docs/android/setup#available-libraries
     //for realtime database
-    implementation 'com.google.firebase:firebase-database:20.0.3'
+    implementation 'com.google.firebase:firebase-database:20.0.4'
     //for authentication
-    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-auth:21.0.3'
     implementation 'com.firebaseui:firebase-ui-auth:8.0.0'
+    //for storage
+    implementation 'com.google.firebase:firebase-storage:20.0.1'
 }
